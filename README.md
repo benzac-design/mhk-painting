@@ -5,6 +5,7 @@ Website for John (Magdy Moussa), a licensed painter in Liverpool NSW. Built 25 S
 - **Live site:** https://mhkpainting.com.au (also https://mhk-painting.vercel.app)
 - **Domain:** mhkpainting.com.au, registered 25 Sept 2026 at Crazy Domains, renews 25 Sept 2027 (auto renew on). DNS: A records for `@` and `www` point to Vercel `76.76.21.21`
 - **Vercel project:** `mhk-painting` (account: benjoezacharia8-tech)
+- **Google Search Console:** verified as a Domain property (TXT record `google-site-verification=...` in Crazy Domains, don't delete it). Sitemap submitted 25 Sept 2026
 - **GitHub backup:** https://github.com/benzac-design/mhk-painting (private)
 
 ## Business details (from his business card)
@@ -67,6 +68,13 @@ cd "website" && npx vercel deploy --prod --yes
 
 4. Commit and push the change to GitHub.
 
+## SEO setup (25 Sept 2026)
+
+- Canonical URL, Open Graph and Twitter tags, preview image `img/og.jpg`
+- `robots.txt` and `sitemap.xml`
+- `vercel.json` sends www and the vercel.app addresses to https://mhkpainting.com.au (308)
+- Structured data (HousePainter) with url, alternateName "MHK Painting", ServiceSeeking in sameAs. Self-served star rating markup removed (Google ignores it for a business rating itself)
+
 ## Privacy decisions
 
 - House number on the letterbox is blurred in `driveway-finished.webp`.
@@ -82,4 +90,7 @@ cd "website" && npx vercel deploy --prod --yes
 - [ ] Confirm he still has every review at 5 stars (the site says so)
 - [ ] Click the licence check link once to make sure it works
 - [x] Domain `mhkpainting.com.au` bought and connected to Vercel
+- [ ] John: set up Google Business Profile (biggest lever for local search)
+- [ ] Add the website link to his ServiceSeeking profile
+- [ ] Check Search Console in a week: sitemap status and indexed pages
 - [ ] Re-take a photo of the business card for this folder (the original upload expired)
