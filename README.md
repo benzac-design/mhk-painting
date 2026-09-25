@@ -2,7 +2,8 @@
 
 Website for John (Magdy Moussa), a licensed painter in Liverpool NSW. Built 25 Sept 2026 as a favour, at Dad's request.
 
-- **Live site:** https://mhk-painting.vercel.app
+- **Live site:** https://mhkpainting.com.au (also https://mhk-painting.vercel.app)
+- **Domain:** mhkpainting.com.au, registered 25 Sept 2026 at Crazy Domains, renews 25 Sept 2027 (auto renew on). DNS: A records for `@` and `www` point to Vercel `76.76.21.21`
 - **Vercel project:** `mhk-painting` (account: benjoezacharia8-tech)
 - **GitHub backup:** https://github.com/benzac-design/mhk-painting (private)
 
@@ -80,5 +81,5 @@ cd "website" && npx vercel deploy --prod --yes
 - [ ] Get finished "after" shots and before/after pairs from John
 - [ ] Confirm he still has every review at 5 stars (the site says so)
 - [ ] Click the licence check link once to make sure it works
-- [ ] Optional: buy `mhkpainting.com.au` (about $20 to $30 a year, needs his ABN) and connect it in Vercel
+- [x] Domain `mhkpainting.com.au` bought and connected to Vercel
 - [ ] Re-take a photo of the business card for this folder (the original upload expired)
