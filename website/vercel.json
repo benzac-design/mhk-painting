@@ -1,0 +1,7 @@
+{
+  "redirects": [
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "www.mhkpainting.com.au" }], "destination": "https://mhkpainting.com.au/$1", "permanent": true },
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "mhk-painting.vercel.app" }], "destination": "https://mhkpainting.com.au/$1", "permanent": true },
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "mhk-painting-benjoezacharia8-techs-projects.vercel.app" }], "destination": "https://mhkpainting.com.au/$1", "permanent": true }
+  ]
+}
